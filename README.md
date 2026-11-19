@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=2C7DA0&center=true&vCenter=true&width=600&lines=Building+ETL+pipelines+%26+data+integrations;SQL+%C2%B7+Python+%C2%B7+BigQuery+%C2%B7+Automation;Learning+PySpark%2C+Airflow+%26+dbt" alt="Building ETL pipelines and data integrations"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=2C7DA0&center=true&vCenter=true&width=760&lines=Building+ETL+pipelines+%26+data+integrations;SQL+%C2%B7+Python+%C2%B7+BigQuery+%C2%B7+Automation;Learning+PySpark%2C+Airflow+%26+dbt" alt="Building ETL pipelines and data integrations"/>
 
 <a href="https://www.linkedin.com/in/akhil-chimata/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="LinkedIn"/></a>
 <a href="mailto:akhilch0906@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
@@ -23,17 +23,6 @@ I'm a Data Engineer with 2 years of experience building **ETL pipelines, data in
 ## 📊 At a glance
 
 <img src="./assets/stats.svg" width="100%" alt="2 years data engineering experience · 6+ client data projects delivered · 98.8% data accuracy, on time · 6 team members led"/>
-
-## 🔄 How I work with data
-
-```mermaid
-flowchart LR
-    A[Client source systems] -->|connectors| B[Ingestion]
-    B --> C[Cleaning & validation]
-    C --> D[SQL transformations]
-    D --> E[(Warehouse<br/>BigQuery · MySQL)]
-    E --> F[Reports & automation]
-```
 
 ## 💼 Experience
 
