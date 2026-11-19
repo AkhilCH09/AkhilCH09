@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="2 years data engineering experience, 6+ client data projects, 98.8% data accuracy, 6 team members led">
+  <style>
+    .tile { fill: #12262e; stroke: #2c5364; stroke-width: 1.5; }
+    .num { font: 700 44px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #7dd3fc; text-anchor: middle; }
+    .lbl { font: 400 16px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #b6c8d1; text-anchor: middle; }
+  </style>
+  <g>
+    <rect class="tile" x="4" y="4" width="282" height="142" rx="14"/>
+    <text class="num" x="145" y="78">2 yrs</text>
+    <text class="lbl" x="145" y="112">Data engineering experience</text>
+  </g>
+  <g>
+    <rect class="tile" x="309" y="4" width="282" height="142" rx="14"/>
+    <text class="num" x="450" y="78">6+</text>
+    <text class="lbl" x="450" y="112">Client data projects delivered</text>
+  </g>
+  <g>
+    <rect class="tile" x="614" y="4" width="282" height="142" rx="14"/>
+    <text class="num" x="755" y="78">98.8%</text>
+    <text class="lbl" x="755" y="112">Data accuracy, on time</text>
+  </g>
+  <g>
+    <rect class="tile" x="919" y="4" width="277" height="142" rx="14"/>
+    <text class="num" x="1057" y="78">6</text>
+    <text class="lbl" x="1057" y="112">Team members led</text>
+  </g>
+</svg>

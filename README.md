@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Akhil%20Chimata&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Data%20Engineer%20%C2%B7%20Hyderabad%2C%20India&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="Akhil Chimata, Data Engineer"/>
+<img src="./assets/banner.svg" width="100%" alt="Akhil Chimata, Data Engineer, Hyderabad, India"/>
 
 <div align="center">
 
@@ -22,13 +22,28 @@ I'm a Data Engineer with 2 years of experience building **ETL pipelines, data in
 
 ## 📊 At a glance
 
-<div align="center">
+<img src="./assets/stats.svg" width="100%" alt="2 years data engineering experience · 6+ client data projects delivered · 98.8% data accuracy, on time · 6 team members led"/>
 
-| 2 years | 6+ | 98.8% | 6 |
-|:---:|:---:|:---:|:---:|
-| Data engineering experience | Client data projects delivered | Data accuracy, on time | Team members led |
+## 🔄 How I work with data
 
-</div>
+```mermaid
+flowchart LR
+    A[Client source systems] -->|connectors| B[Ingestion]
+    B --> C[Cleaning & validation]
+    C --> D[SQL transformations]
+    D --> E[(Warehouse<br/>BigQuery · MySQL)]
+    E --> F[Reports & automation]
+```
+
+## 💼 Experience
+
+| Role | Company | When |
+|---|---|---|
+| **Implementation Engineer (Data)** | Asset10 Software | Oct 2025 – Present |
+| **Jr. Data Engineer** | Implere Technologies | Oct 2024 – Oct 2025 |
+| **AI & ML Intern** | Xinthe Technologies | Nov 2023 – Mar 2024 |
+
+🎓 B.Tech, Computer Science & Engineering (AI & ML), 2020 – 2024
 
 ## 🛠️ Tech stack
 
@@ -64,4 +79,3 @@ I'm a Data Engineer with 2 years of experience building **ETL pipelines, data in
 |---|---|---|
 | 🌐 [Language Translation Web App](https://github.com/AkhilCH09/Language_Translation) | Translates text between 52 languages in the browser using a pre-trained multilingual Transformer | Flask · Hugging Face Transformers · PyTorch |
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=100&section=footer" width="100%" alt=""/>

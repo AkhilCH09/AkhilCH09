@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Akhil Chimata, Data Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f2027"/>
+      <stop offset="0.5" stop-color="#203a43"/>
+      <stop offset="1" stop-color="#2c5364"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#ffffff" fill-opacity="0.06"/>
+    </pattern>
+  </defs>
+  <style>
+    .name { font: 700 56px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #ffffff; }
+    .role { font: 600 26px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #7dd3fc; }
+    .meta { font: 400 18px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #b6c8d1; }
+    .node rect { fill: #0b1a20; fill-opacity: 0.55; stroke: #7dd3fc; stroke-opacity: 0.6; stroke-width: 1.5; }
+    .node text { font: 600 15px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #e6f4fa; text-anchor: middle; }
+    .pipe { stroke: #7dd3fc; stroke-opacity: 0.35; stroke-width: 2; fill: none; }
+    .flow { stroke: #7dd3fc; stroke-width: 3; fill: none; stroke-linecap: round; stroke-dasharray: 6 22; animation: flow 1.2s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -28; } }
+    @media (prefers-reduced-motion: reduce) { .flow { animation: none; } }
+  </style>
+
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#dots)"/>
+
+  <g>
+    <text x="64" y="128" class="name">Akhil Chimata</text>
+    <text x="66" y="172" class="role">Data Engineer</text>
+    <text x="66" y="212" class="meta">SQL · Python · BigQuery · ETL · Automation</text>
+    <text x="66" y="242" class="meta">Hyderabad, India · Open to new roles</text>
+  </g>
+
+  <!-- pipeline: Sources -> Transform -> Warehouse -->
+  <path class="pipe" d="M790 150 H850"/>
+  <path class="pipe" d="M970 150 H1030"/>
+  <path class="flow" d="M790 150 H850"/>
+  <path class="flow" d="M970 150 H1030"/>
+
+  <g class="node">
+    <rect x="680" y="118" width="110" height="64" rx="10"/>
+    <text x="735" y="146">Sources</text>
+    <text x="735" y="166" style="font-weight:400;font-size:12px;fill:#b6c8d1">APIs · DBs · files</text>
+  </g>
+  <g class="node">
+    <rect x="850" y="118" width="120" height="64" rx="10"/>
+    <text x="910" y="146">Transform</text>
+    <text x="910" y="166" style="font-weight:400;font-size:12px;fill:#b6c8d1">clean · validate</text>
+  </g>
+  <g class="node">
+    <rect x="1030" y="118" width="120" height="64" rx="10"/>
+    <text x="1090" y="146">Warehouse</text>
+    <text x="1090" y="166" style="font-weight:400;font-size:12px;fill:#b6c8d1">SQL · BigQuery</text>
+  </g>
+</svg>
